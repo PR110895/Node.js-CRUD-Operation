@@ -1,0 +1,15 @@
+
+
+  function isLetter(str) {
+  return str.length === 1 && str.match(/[a-z]/i);
+}
+
+if (isLetter(newMember.phone)) {
+    return res.status(400).json({ msg: "Please include a valid PhoneNumber" });
+  }
+
+  if (isLetter(newMember.phone)) {
+    return res.status(400).json({ msg: "Please include a valid PhoneNumber" });
+  }
+
+  &&  (/[^a-zA-Z]/.test(newMember.phone))
